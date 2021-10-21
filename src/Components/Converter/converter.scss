@@ -1,0 +1,45 @@
+.converter {
+  $root: &;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 25px 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: $font-large;
+  }
+
+  &__input {
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    font-size: $font-medium;
+  }
+
+  &__btn {
+    box-sizing: border-box;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-top: 40px;
+    text-decoration: none;
+    border: 0;
+    font-size: $font-large;
+    background-color: $color-accent;
+  }
+
+  &__btn:hover {
+    background-color: darken($color-accent, 10);
+  }
+
+  &__image {
+    height: 60vh;
+  }
+}

@@ -1,0 +1,13 @@
+@import "colors";
+@import "fonts";
+@import "Components/Converter/converter";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.App {
+  font-family: 'Noto Sans Mono', monospace;
+  text-align: center;
+}
